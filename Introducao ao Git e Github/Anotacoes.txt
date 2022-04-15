@@ -3,7 +3,7 @@ o Git Bash é um teminal extendido para otimizar o uso do Git.
 
 Como atualizar os arquivos no Gitthub - no terminal  digite o seguinte comando " git add -A ou ." adicionar todos os arquivos que estou criando no meu desktop.
 se eu digitar git status, ele já aparece como verde, identificando que fosse condiderado como controle de versão. nós só adicicionamos no contrle de versão local.
-digite o comando para inclusão. " git commint -m "Inclusão das anotações do curso de Git/Github"(isso é um comentário)
+digite o comando para inclusão. " git commit -m "Inclusão das anotações do curso de Git/Github"(isso é um comentário)
 git push origin main - envia os arquivos para o github
 
 
