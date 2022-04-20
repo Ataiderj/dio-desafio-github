@@ -1,0 +1,7 @@
+# Desafio da DIO de um projeto de um Algoritmo que leia 2 números e imprima o resultado da divisão do Primeiro pelo segundo.
+
+#Divisão de dois Números
+x = float(input("Digite o valor do primeiro número: "))
+y = float(input("Digite o valor do Segundo número: "))
+resultado = x / y
+print("O valor da divisão é: ", resultado)
