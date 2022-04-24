@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align items</title>
+    <style>
+        .container{
+            max-width: 350px ;
+            border: 1px solid black;
+            display: flex;
+        }
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+        
+        .center{
+            align-items: center;
+        }
+        
+        .stretch{
+            align-items: stretch;
+        }
+        
+        .start{
+            align-items: flex-start;
+        }
+        
+        .end{
+            align-items: flex-end;
+        }
+        
+        .baseline{
+            align-items: baseline;
+        }
+        .central{
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .central .item{
+            flex: 0;
+            padding: 20px;
+        }
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>row</h1>
+    <p>center</p>
+   <section class="container center">
+        <div class="item 1">Este é o</div>
+        <div class="item 2">alinhamneto</div>
+        <div class="item 3">center stretch</div>
+        
+    </section>
+    <p>stretch</p>
+    <section class="container stretch">
+        <div class="item 1">Este é o</div>
+        <div class="item 2">alinhamneto do vertica primeiro. alinhamneto do vertica primeiro</div>
+        <div class="item 3">center stretch vertical segundo</div>
+        
+    </section>  
+    <p>flex-start</p>
+    <section class="container start">
+        <div class="item 1">Este é o</div>
+        <div class="item 2">alinhamneto dov</div>
+        <div class="item 3">center stretch</div>
+        <div class="item 4">Permiti align eixo vertical</div>
+    </section> 
+    <p>flex-end</p>
+    <section class="container end ">
+        <div class="item 1"><br>Este é o</div>
+        <div class="item 2">alinhamneto do</div>
+        <div class="item 3">center stretch</div>
+        
+    </section> 
+    <p>baseline</p>
+    <section class="container baseline">
+        <div class="item 1">Este é o</div>
+        <div class="item 2">alinhamneto</div>
+        <div class="item 3">center stretch</div>
+       
+    </section>
+    <p>center</p>
+    <section class="container central">
+        <div class="item 1">Este é o</div>
+        <div class="item 2">alinhamneto do</div>
+        <div class="item 3">center stretch</div>
+        
+    </section>
+    <h1>column</h1>
+    <p>flex-start</p>
+    <section class="container star column">
+        <div class="item 1">Este é o</div>
+        <div class="item 2">alinhamneto dov</div>
+        <div class="item 3">center stretch</div>
+       
+    </section> 
+    <p>flex-end</p>
+    <section class="container end column">
+        <div class="item 1">Este é o</div>
+        <div class="item 2">alinhamneto do</div>
+        <div class="item 3">center stretch</div>
+     
+    </section> 
+    <p>center</p>
+    <section class="container center column">
+        <div class="item 1">Este é o</div>
+        <div class="item 2">alinhamneto</div>
+        <div class="item 3">center stretch</div>
+       
+    </section> 
+    <p>baseline</p>
+    <section class="container baseline column">
+        <div class="item 1">Item 1</div>
+        <div class="item 2">Loren ipsum dolor sit amet</div>
+        <div class="item 3">Iem 3 mais algum texto. Lipsum</div>
+    </section> 
+</body>
+</html>
