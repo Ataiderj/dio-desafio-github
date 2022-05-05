@@ -1,0 +1,32 @@
+<div id="ex_sidebar">
+      <h3>Links</h3>
+      <ul>
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+      </ul>
+    </div>
+
+
+
+    <!-- make the middle region's background color expand -->
+    <div class="clear"></div>
+
+
+    <input type="image" src="enviar1.gif" alt="Enviar"  title="Enviar Mensagem" name="Enviar" width="54" height="26" onClick="myFunction()">
+
+    <input type="button" src="enviar2.gif" alt="limpar" border="0" title="Limpar" onclick="changetext()" value="Limpar">
+
+
+
+    
+                     <input type="image" src="enviar1.gif" alt="Enviar" title="Enviar Mensagem" name="Enviar" width="54" height="26" onClick="myFunction()">
+                     <script>
+                     function myFunction() {
+                     alert("Enviado com sucesso!");
+                     }
+                     </script>
+                     <a href="javascript:reset()">
+                     <img src="enviar2.gif" border="0" title="Limpar">
+                     </a>

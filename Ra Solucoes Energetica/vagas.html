@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+<title>Envie a sua Solicitação de Orçamento</title>
+
+<link rel="stylesheet" href="teste1.css">
+
+</head>
+
+<body>
+
+<div id="example">
+  <div id="ex_header">
+    <img id="Imagem1" width="1000" height="259" src="LayoutImagem.jpg" alt="ImagemCabeçalho">
+  </div>
+
+  <div id="ex_navbar">
+    <ul>      
+      <li><a href="teste4.html"><button> FALE CONOSCO</button></a></li>
+      <li><a href="teste2.html"><button> Tecnologia</button></a></li>
+      <li><a href="teste3.html"><button> CONTATO</button></a></li>
+      <li><a href="teste1.html"><button> HOME</button></a></li>
+    </ul>    
+  </div>
+
+  <div id="ex_middleVagas">        
+
+    <div id="ex_mainVagas">      
+      <table cellpadding="2" cellspacing="0" border="0" style="background-repeat: no-repeat; padding-right:0px; width: 320px; height: 250px;" align="center" class="style1">
+              
+                  <tr> 
+                      <td >
+                       <b><p>Estamos recebendo solicitação de orçamento, envie em anexo o seu comprovante de consumo de energia elétrica. Deixe seus dados e entraremos em contato com você.</p>      
+                       </b>
+                      </td>
+                  </tr>             
+          <tr>    
+            <td valign="top" align="center" class="texto" style="padding-left:8px; width: 243px;">
+                      <form name="frmForm" id="frmForm" method="post" action="teste1.html" name="contato">           
+                <tr><td><table cellSpacing="10" cellPadding="0" align="center" width="100%" style="border-style: ridge; border-color: #a6bf79; border-width: 1">
+                  <td class="negrito note" align="right">
+                    <span>*&nbsp;</span><b>Nome:&nbsp;</b>
+                  </td>         
+                  <td align="left">
+                    <input type="text" name="nome" size="39" > 
+                  </td>
+                </tr>
+                <tr>
+                  <td class="negrito note" align="right">
+                      <span>*&nbsp;</span><b>E-mail:&nbsp;</b>
+                  </td>
+                  <td align="left">
+                    <input type="email" name="email" autocomplete="on" size="39" > 
+                  </td>
+                </tr>
+                <tr>
+                  <td class="negrito note" align="right">
+                    <b>Telefone:&nbsp;</b>
+                  </td>
+                  <td align="left">
+                    <input type="text" name="telefone" size="39" value="(   )" > 
+                  </td>
+                </tr>
+                      
+                <tr>
+                  <td class="negrito note" align="right" valign="top">
+                    <span>*&nbsp;</span><b>Curriculo:&nbsp;</b>
+                  </td>
+                  <td align="left"> 
+                    <textarea name="mensagem" rows="10" cols="40"></textarea>  
+                  </td>
+
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                  <td align="center">
+                     <button type="submit" alt="Enviar" action="teste1.html" title="Enviar Mensagem" name="Enviar" onclick="myFunction()">Enviar</button>                   
+                     <script>
+                     function myFunction() {
+                     alert("Seus dados estão sendo enviados.");                     
+                     }
+                     </script>
+
+                     <button type="button" onclick="changetext()">Limpar</button>                     
+                     <script>
+                     function changetext()
+                     {
+                     document.getElementById("frmForm").reset();
+                     }
+                     </script>                                       
+                     
+                  </td>                   
+                </tr>
+                </table>                     
+              </form>
+            </td>
+              </table>                     
+                    </tr>
+
+                        <b><p>Aten&ccedil;&atilde;o, os campos marcados com asterisco s&atilde;o obrigat&oacute;rios.</p></b>  
+
+    </div>
+    
+  </div>
+
+  <div id="ex_footer">
+    <h6>Web Master >> ataíde Ramos da Silva </h6>
+  </div>
+
+</div>
+
+
+</body>
+</html>

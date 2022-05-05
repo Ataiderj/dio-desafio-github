@@ -1,0 +1,21 @@
+#ex_sidebar {
+  float: left;
+  width: 100px;
+  background-color: #ccc;
+}
+
+#ex_sidebar h2 {
+  margin: 0 0 0 10px; 
+}
+
+
+
+margin: 0 0 -55px -15px;
+
+
+
+#img1:hover {
+  background-color: #f19224;
+  background-image: inherit;
+  opacity:0.9;  
+}
